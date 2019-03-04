@@ -11,6 +11,14 @@ public class Candle {
 	
 	private String candleName;
 
+	public String getCandleName() {
+		return candleName;
+	}
+
+	public void setCandleName(String candleName) {
+		this.candleName = candleName;
+	}
+
 	public int getCandleId() {
 		return candleId;
 	}
